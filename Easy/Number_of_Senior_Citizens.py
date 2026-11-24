@@ -1,5 +1,5 @@
 class Solution:
-    def countSeniors(self, details: List[str]) -> int:
+    def countSeniors(self, details: list[str]) -> int:
         return len([i for i in details if int(i[11]+i[12])>60])
 
         # count = 0
